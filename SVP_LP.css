@@ -1,0 +1,194 @@
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+div{
+    animation-name:fade;
+    animation-duration: 3s;
+}
+
+@keyframes fade{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+a {
+    text-decoration: none;
+  }
+
+p{
+  text-align: center;
+}
+
+body{
+    width: 100%;
+    background-color: #FAD256;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+
+.textwhite{
+  color:white;
+}
+.textblue{
+  color:#04409A;
+}
+
+.pc { display: block !important; 
+  width:100%;}
+.sp { display: none !important; }
+
+@media only screen and (max-width: 750px) {
+  .pc { display: none !important; }
+  .sp { display: block !important; 
+      max-width: 100%;
+      align-items: center;
+      margin-left: 0% !important;
+      width: 100% !important; }   
+  .quote-btn {
+      margin: 20px 0 !important;
+  }
+  .float-btn img,.quote-btn img{
+      width: 66.6% !important;
+      margin: auto !important;
+  }
+}
+
+.firstview_icon{
+  position:absolute;
+  margin:10vw 0vw 0vw 2vw;
+  width:50vw;
+}
+
+.firstview p{
+  margin: 5vw;
+  font-size: medium;
+}
+
+.contents1-title{
+  margin:5px auto;
+  width:45vw;
+}
+
+.bgblue{
+  background-color: #04409A;
+}
+
+.contents1-carousel{
+  padding:5vw;
+  width:90vw;
+}
+
+.contents3{
+  margin:10vw 0;
+  width:90vw;
+}
+
+.cautionimg{
+  width:80vw;
+  margin:15vw auto;
+
+}
+
+.question{
+  margin: 5vw 0;
+}
+
+.FAQtitle{
+  width:20vw;
+  margin:auto;
+}
+
+.textlarge{
+  font-size: large;
+}
+
+.application{
+  background-image: url(http://www.financial-agency.com/service/wp-content/uploads/2022/09/Group3487pc.png);
+  background-size: cover;
+}
+
+.applicationname {
+  margin: auto;
+  width: 78vw;
+  padding-top: 11vw;
+}
+
+.applicationtitle {
+  margin: auto;
+  width: 62vw;
+}
+
+.applicationtext p{
+  margin-top:7vw;
+}
+
+.threepattern{
+  width:77vw;
+  display:flex !important;
+  margin:3vw auto;
+  height:58vw;
+}
+
+.threepattern div{
+  flex:auto;
+  width: 23vw;
+  height: 46vw;
+}
+
+.threepattern p{
+  color: #032A64;
+}
+
+.pattern-container{
+  background-color: #B1B1B1;
+  height:30vw;
+  
+}
+
+.pattern-container img,.pattern-container p{
+  width:80%;
+  margin:auto;
+}
+
+.pattern-link img{
+  margin:auto;
+}
+
+.textright{
+  text-align: right;
+  margin-right: 2vw;
+}
+
+.approvalnum{
+  padding-bottom:10vw;
+}
+
+flexcorner{
+  position:fixed;
+  bottom:0;
+  z-index: 10;
+  background-color: #FAD256;
+
+}
+
+.linkbtn {
+  display: flex!important;
+  width: 70%;
+  margin: auto;
+}
+
+.linkbtn img {
+  margin: 12px auto;
+}
