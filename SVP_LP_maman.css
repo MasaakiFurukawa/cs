@@ -1,0 +1,377 @@
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.firstview_icon{
+    animation-name:fade;
+    animation-duration: 5s;
+}
+
+@keyframes fade{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+a {
+    text-decoration: none;
+  }
+
+p{
+  text-align: center;
+  font-weight: 400;
+}
+
+body{
+  width: 100%;
+  background-color: #D2EBC1;
+  font-family: heisei-maru-gothic-std, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.navyblue{
+  color:#1E2B32;
+}
+
+.bold{
+  font-weight: 800;
+}
+
+.pc { display: block !important; 
+  width:100%;}
+.sp { display: none !important; }
+
+@media only screen and (max-width: 750px) {
+  .pc { display: none !important; }
+  .sp { display: block !important; 
+      max-width: 100%;
+      align-items: center;
+      /*margin-left: 0% !important;
+      width: 100% !important;*/ }
+}
+
+
+
+
+img.pc.contents_title {
+  margin-top: 5vw;
+  margin-bottom: 1vw;
+}
+
+p.pc.contents_text {
+  font-size: 2.7vw;
+  margin: -28vw auto 21vw auto;
+  padding: 0 15vw;
+  line-height: 3.2vw;
+}
+
+img.pc.contents2_img {
+  margin-top: 4vw;
+}
+
+.pc.contents2 p {
+  text-align: left;
+  font-size: 1.2vw;
+  padding-left: 14vw;
+}
+
+.pc.contents3 {
+  margin-top: 8vw;
+  padding-bottom: 3vw;
+}
+
+img.pc.contents3_img {
+  margin-top: 2vw;
+}
+
+img.pc.FAQ_title {
+  padding: 7vw 0 5vw 0;
+}
+
+.pc.question_title{
+  border-radius: 20px;
+}
+
+img.pc.Q,img.pc.A {
+  width: 3.5vw;
+  position: absolute;
+  left: 2vw;
+  top: 1.5vw;
+}
+
+.pc.FAQ-detail.accordion {
+  padding: 0 10vw 5vw 10vw;
+}
+
+.pc.question_title p {
+  padding: 1vw 8vw 1vw 6vw;
+  text-align: left;
+  font-size: 2vw;
+  line-height: 2.5vw;
+}
+
+.pc.FAQanswer.content p {
+  text-align: left;
+  padding: 2vw 0 3vw 7vw;
+  line-height: 2.5vw;
+}
+
+.pc.application{
+  background-image: url(http://www.financial-agency.com/service/wp-content/uploads/2022/09/PC5.png);
+  background-size: cover;
+  height:175.55555vw;
+  background-color: #F5F5F5;
+  padding-top: 87vw;
+  padding-left: 13vw;
+}
+
+.pc.application img {
+  width: 30vw;
+}
+img.pc.NotyetNetAnswer {
+  margin-top: 3vw;
+}
+img.pc.NotSaisonCardholder {
+  margin: -20vw 0 0vw 45vw;
+}
+img.pc.GetInformation {
+  margin: 29vw 0 0 32vw;
+}
+
+
+.pc.application_text p {
+  font-size: 1.5vw;
+  line-height: 2vw;
+  text-align: left;
+  margin: 7vw 0px 2vw -5vw;
+}
+.application_text span{
+  font-size: 1.9vw;
+}
+p.pc.approvalnum {
+  text-align: right;
+}
+
+.pc.linkbtn {
+  display: flex!important;
+  padding: 0 5vw;
+}
+
+img.pc.linkbtn2 {
+  margin-right: 1.5vw;
+}
+img.pc.linkbtn1 {
+  margin-right: 1.5vw;
+}
+.pc.linkbtn img {
+  width: 29vw;
+}
+
+.pc.flexcorner_text {
+  padding: 3vw 0;
+}
+
+.pc.backcorner {
+  height: 18.8vw;
+}
+
+
+
+.sp.contents2 p {
+  text-align: left;
+  font-size: 3vw;
+  line-height: 4vw;
+  padding: 3vw 5vw;
+}
+
+.FAQ {
+  background-color: #F5F5F5;
+}
+
+
+
+img.sp.contents_title {
+  margin-top: 5vw;
+}
+
+p.sp.contents_text {
+  font-size: 5.5vw;
+  margin: -59vw auto 27vw auto;
+  padding: 0 15vw;
+  line-height: 6.5vw;
+}
+
+img.sp.contents2_img {
+  margin-top: 4vw;
+}
+
+
+.sp.contents3 {
+  margin-top: 16vw;
+}
+
+img.sp.FAQ_title {
+  padding: 5vw 0;
+}
+
+.sp.FAQ-detail.accordion {
+  padding: 0 10vw 5vw 10vw;
+}
+
+.sp .question_title p {
+  padding: 1vw 8vw 1vw 8vw;
+  text-align: left;
+}
+
+.sp.FAQanswer.content p {
+  text-align: left;
+  padding: 3vw 0 0 8vw;
+}
+
+.sp.application{
+  background-image: url(http://www.financial-agency.com/service/wp-content/uploads/2022/09/SP5.png);
+  background-size: cover;
+  height:286.1538461538462vw;
+  background-color: #F5F5F5;
+  padding-top: 148vw;
+  padding-left: 6vw;
+}
+
+.sp.application img {
+  width: 36vw;
+}
+img.sp.NotyetNetAnswer {
+  margin-top: 6vw;
+}
+img.sp.NotSaisonCardholder {
+  margin: -47vw 0 0vw 51vw;
+}
+img.sp.GetInformation {
+  margin: 64vw 0 0 49vw;
+}
+
+.sp.application_text{
+  background-color: #A6E2D6;
+}
+.sp.application_text p{
+  text-align: left;
+  font-size: 0.85em;
+}
+
+.sp.application_text p {
+  text-align: left;
+  font-size: 0.8em;
+  padding: 0vw 5vw 5vw 5vw;
+}
+
+.sp.linkbtn {
+  display: flex!important;
+  padding: 0 5vw;
+}
+
+img.sp.linkbtn2 {
+  margin-right: 1.5vw;
+}
+img.sp.linkbtn1 {
+  margin-right: 1.5vw;
+}
+.sp.linkbtn img {
+  width: 29vw;
+}
+
+.flexcorner{
+  position:fixed;
+  bottom:0;
+  z-index: 10;
+  transition:all 0.5s;
+  background-color: rgba(255, 255, 255, 0.6);
+  padding-bottom: 2vw;
+}
+.sp.flexcorner_text {
+  padding: 3vw 0;
+}
+
+.sp.backcorner {
+  height: 33vw;
+}
+
+
+/*アコーディオン*/
+.toggle {
+  display: none;
+}
+.option {
+  position: relative;
+  margin-bottom: 1em;
+}
+.question_title,
+.content {
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  transform: translateZ(0);
+  transition: all 0.3s;
+}
+.question_title {
+  background-color: #D2EBC1;
+  border-radius: 10px;
+  display: block;
+  color: #D2EBC1;
+  font-weight: bold;
+  padding:1vw;
+}
+.question_title::after,
+.question_title::before {
+  content: "";
+  position: absolute;
+  right: 2.25vw;
+  bottom: 1vw;
+  width: 2px;
+  height: 0.5em;
+  color: #E4E3DE;
+  transition: all 0.3s;
+  transform: rotate(135deg);
+  border-bottom: solid 10px;
+}
+.question_title::after {
+  transform: rotate(-135deg);
+}
+.sp.question_title::after,
+.sp.question_title::before {
+  bottom:10px;
+  right:5vw;
+  width:3px; 
+  border-bottom: solid 11px;
+
+}
+
+.content {
+  max-height: 0;
+  overflow: hidden;
+}
+.toggle:checked + .question_title + .content {
+max-height: 500px;
+transition: all 1.5s;
+}
+
+.toggle:checked + .question_title::before {
+  transform: rotate(90deg) !important;
+}
+.toggle:checked + .question_title::after {
+  transform: rotate(-90deg) !important;
+  }
+/*アコーディオン_end*/
