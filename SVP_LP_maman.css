@@ -195,14 +195,14 @@ img.pc.linkbtn1 {
   padding-top: 2vw;
   padding-bottom: 1vw;
   font-size: 1.8vw;
-  text-shadow: -1px -1px 0 white,
-   -1px 0 0 white,
-   -1px 1px 0 white,
-   0 -1px 0 white,
-   0 1px 0 white,
-   1px -1px 0 white,
-   1px 0 0 white,
-   1px 1px 0 white;
+  text-shadow:-0.1vw -0.1vw 0 white,
+  -0.1vw 0 0 white,
+  -0.1vw 0.1vw 0 white,
+  0 -0.1vw 0 white,
+  0 0.1vw 0 white,
+  0.1vw -0.1vw 0 white,
+  0.1vw 0 0 white,
+  0.1vw 0.1vw 0 white;
 }
 
 .pc.backcorner {
