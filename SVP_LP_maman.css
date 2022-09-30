@@ -169,26 +169,26 @@ p.pc.approvalnum {
 
 .pc.linkbtn {
   display: flex!important;
-  padding: 0 5vw;
+  padding: 0 10vw;
 }
 
 img.pc.linkbtn2 {
-  margin-right: 1.5vw;
+  margin-right: 4vw;
 }
 img.pc.linkbtn1 {
-  margin-right: 1.5vw;
+  margin-right: 4vw;
 }
 .pc.linkbtn img {
-  width: 29vw;
+  width: 24vw;
 }
 
 .pc.flexcorner_text {
-  padding: 2vw 0;
+  padding: 1vw 0;
   font-size: 3vw;
 }
 
 .pc.backcorner {
-  height: 18.8vw;
+  height: 13.6vw;
 }
 
 
@@ -318,7 +318,7 @@ p.sp.approvalnum {
   text-align: right;
 }
 .sp.backcorner {
-  height: 33vw;
+  height: 0vw;
 }
 
 
