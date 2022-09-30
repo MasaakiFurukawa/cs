@@ -269,6 +269,7 @@ img.sp.A{
 .sp.FAQanswer.content p {
   text-align: left;
   padding: 3vw 0 0 9vw;
+  line-height: 4vw;
 }
 
 .sp.application{
