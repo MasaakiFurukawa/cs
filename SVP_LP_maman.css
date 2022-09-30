@@ -103,6 +103,10 @@ img.pc.FAQ_title {
   padding: 7vw 0 5vw 0;
 }
 
+.pc.FAQ1,.pc.FAQ2,.pc.FAQ3,.pc.FAQ4 {
+  margin: 3vw 0;
+}
+
 .pc.question_title{
   border-radius: 20px;
 }
@@ -132,6 +136,7 @@ img.pc.A{
   text-align: left;
   padding: 2vw 0 3vw 7vw;
   line-height: 2.5vw;
+  font-size: 1.5vw;
 }
 
 .pc.application{
@@ -190,7 +195,14 @@ img.pc.linkbtn1 {
   padding-top: 2vw;
   padding-bottom: 1vw;
   font-size: 1.8vw;
-  -webkit-text-stroke: 0.02vw #FFF;
+  text-shadow: -1px -1px 0 white,
+   -1px 0 0 white,
+   -1px 1px 0 white,
+   0 -1px 0 white,
+   0 1px 0 white,
+   1px -1px 0 white,
+   1px 0 0 white,
+   1px 1px 0 white;
 }
 
 .pc.backcorner {
@@ -239,10 +251,10 @@ img.sp.Q,img.sp.A {
   width: 5.5vw;
   position: absolute;
   left: 2vw;
-  top: 1.5vw;
+  top: 3vw;
 }
 img.sp.A{
-  top:2vw;
+  top:3vw;
 }
 
 .sp.FAQ-detail.accordion {
@@ -250,7 +262,7 @@ img.sp.A{
 }
 
 .sp .question_title p {
-  padding: 1vw 8vw 1vw 8vw;
+  padding: 3vw 8vw 3vw 8vw;
   text-align: left;
 }
 
@@ -321,10 +333,17 @@ img.sp.linkbtn1 {
   padding-bottom: 1vw;
 }
 .sp.flexcorner_text {
-  padding-top: 2vw;
-  padding-bottom: 0.5vw;
-  font-size: 1.8vw;
-  -webkit-text-stroke: 0.3px #FFF;
+  padding-top: 3vw;
+  padding-bottom: 2vw;
+  font-size: 4vw;
+  text-shadow: -1px -1px 0 white,
+  -1px 0 0 white,
+  -1px 1px 0 white,
+  0 -1px 0 white,
+  0 1px 0 white,
+  1px -1px 0 white,
+  1px 0 0 white,
+  1px 1px 0 white;
 }
 p.sp.approvalnum {
   text-align: right;
