@@ -113,6 +113,9 @@ img.pc.Q,img.pc.A {
   left: 2vw;
   top: 1.5vw;
 }
+img.pc.A{
+  top:2vw;
+}
 
 .pc.FAQ-detail.accordion {
   padding: 0 10vw 5vw 10vw;
@@ -163,32 +166,35 @@ img.pc.GetInformation {
 .pc.application_text span{
   font-size: 1.9vw;
 }
+
 p.pc.approvalnum {
   text-align: right;
 }
 
 .pc.linkbtn {
   display: flex!important;
-  padding: 0 10vw;
+  padding: 0 12vw;
 }
 
 img.pc.linkbtn2 {
-  margin-right: 4vw;
+  margin-right: 2vw;
 }
 img.pc.linkbtn1 {
-  margin-right: 4vw;
+  margin-right: 2vw;
 }
 .pc.linkbtn img {
   width: 24vw;
 }
 
 .pc.flexcorner_text {
-  padding: 1vw 0;
-  font-size: 3vw;
+  padding-top: 2vw;
+  padding-bottom: 1vw;
+  font-size: 1.8vw;
+  -webkit-text-stroke: 0.02vw #FFF;
 }
 
 .pc.backcorner {
-  height: 13.6vw;
+  height: 13.3vw;
 }
 
 
@@ -234,6 +240,9 @@ img.sp.Q,img.sp.A {
   position: absolute;
   left: 2vw;
   top: 1.5vw;
+}
+img.sp.A{
+  top:2vw;
 }
 
 .sp.FAQ-detail.accordion {
@@ -312,7 +321,10 @@ img.sp.linkbtn1 {
   padding-bottom: 1vw;
 }
 .sp.flexcorner_text {
-  padding: 2vw 0;
+  padding-top: 2vw;
+  padding-bottom: 0.5vw;
+  font-size: 1.8vw;
+  -webkit-text-stroke: 0.3px #FFF;
 }
 p.sp.approvalnum {
   text-align: right;
