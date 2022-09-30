@@ -242,6 +242,9 @@ img.sp.contents2_img {
 .sp.contents3 {
   margin-top: 16vw;
 }
+img.sp.contents3_img {
+    padding-bottom: 5vw;
+}
 
 img.sp.FAQ_title {
   padding: 5vw 0;
